@@ -1,11 +1,10 @@
-[gd_scene load_steps=3 format=3 uid="uid://is3u6nyara1u"]
+[gd_scene load_steps=2 format=3 uid="uid://is3u6nyara1u"]
 
 [ext_resource type="Script" path="res://scripts/scenes/main.gd" id="1_e2p27"]
-[ext_resource type="PackedScene" uid="uid://ckjjhsxmvaadr" path="res://scenes/button.tscn" id="2_n1u01"]
 
 [node name="main" type="Node2D"]
 script = ExtResource("1_e2p27")
-buttonScene = ExtResource("2_n1u01")
+buttonScene = null
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 layer = -1

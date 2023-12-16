@@ -56,3 +56,5 @@ alignment = 1
 [node name="row 3" type="HBoxContainer" parent="CanvasLayer2/Control/BoxContainer/VBoxContainer"]
 layout_mode = 2
 alignment = 1
+
+[node name="Control" parent="." instance=ExtResource("2_n1u01")]

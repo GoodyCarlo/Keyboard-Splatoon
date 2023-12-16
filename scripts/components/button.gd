@@ -10,11 +10,12 @@ func _input(event):
 	if event is InputEventKey and event.pressed:
 		if char(event.keycode) == name:
 			if pressedPressed:
-				self.add_theme_color_override("font_color", Color(1, 0.5, 0))
+				self.add_theme_color_override("font_color", Constants.CLICKABLECOLOR)
 			else:
-				self.add_theme_color_override("font_color", Color(0, 0, 0))
+				self.add_theme_color_override("font_color", Constants.CLICKEDCOLOR)
 			
 			pressedPressed = !pressedPressed
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
+func _process(_delta):
+	
 	pass
